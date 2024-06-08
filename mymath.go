@@ -18,9 +18,6 @@ func Pow(x, y float64) float64 {
 }
 
 // Sin - функция для вычисления синуса
-func Sin(x float64) float64 {
-	return math.Sin(x)
-}
 
 // Cos - функция для вычисления косинуса
 func Cos(x float64) float64 {
@@ -56,4 +53,7 @@ func Yn(n int, x float64) float64 {
 }
 func Max(x float64, y float64) float64 {
 	return math.Max(x, y)
+}
+func Sin(x float64) float64 {
+	return math.Sin(x)
 }
