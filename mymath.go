@@ -1,6 +1,9 @@
 package mymath
 
-import "math"
+import (
+	"fmt"
+	"math"
+)
 
 // Abs - функция для вычисления абсолютного значения числа
 func Abs(x float64) float64 {
@@ -56,4 +59,7 @@ func Max(x float64, y float64) float64 {
 }
 func Sin(x float64) float64 {
 	return math.Sin(x)
+}
+func koll() {
+	fmt.Println("good")
 }
