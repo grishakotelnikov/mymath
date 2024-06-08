@@ -63,3 +63,6 @@ func Sin(x float64) float64 {
 func koll() {
 	fmt.Println("good")
 }
+func tire() {
+	fmt.Println("notepad")
+}
